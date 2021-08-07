@@ -1,0 +1,57 @@
+{
+  "uid" : "154c92dc7bf0884d",
+  "name" : "Fails to Generate 65 chracters long password2",
+  "fullName" : "Fails to Generate 65 chracters long password2",
+  "historyId" : " tests\\MyFirstTest.spec.js Fails to Generate 65 chracters long password2",
+  "time" : {
+    "start" : 1628079656886,
+    "stop" : 1628079663209,
+    "duration" : 6323
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3af8669da9f2fe5f",
+      "name" : "screenshot",
+      "source" : "3af8669da9f2fe5f.png",
+      "type" : "image/png",
+      "size" : 135002
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\MyFirstTest.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "154c92dc7bf0884d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "6d81a2410f843e0d",
+  "name" : "Test that search is working recorded by inspector",
+  "fullName" : "Test that search is working recorded by inspector",
+  "historyId" : " tests\\MyFirstTest.spec.js Test that search is working recorded by inspector",
+  "time" : {
+    "start" : 1628079596473,
+    "stop" : 1628079606979,
+    "duration" : 10506
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d0ed9578972bb4f4",
+      "name" : "screenshot",
+      "source" : "d0ed9578972bb4f4.png",
+      "type" : "image/png",
+      "size" : 117417
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\MyFirstTest.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f6bf46cf90b8104f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628077267407,
+        "stop" : 1628077278506,
+        "duration" : 11099
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d81a2410f843e0d.json",
+  "parameterValues" : [ ]
+}

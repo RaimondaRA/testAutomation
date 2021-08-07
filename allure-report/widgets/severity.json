@@ -1,0 +1,111 @@
+[ {
+  "uid" : "52e9191b1f91076d",
+  "name" : "Test that wikipedia shortener works",
+  "time" : {
+    "start" : 1628079613484,
+    "stop" : 1628079622861,
+    "duration" : 9377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af79ca2bf39f70d2",
+  "name" : "Generate 16 chracters long password",
+  "time" : {
+    "start" : 1628079637608,
+    "stop" : 1628079643961,
+    "duration" : 6353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "159bae5726f51f74",
+  "name" : "Fails to Generate 7 chracters long password2",
+  "time" : {
+    "start" : 1628079650382,
+    "stop" : 1628079656887,
+    "duration" : 6505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f484f79c8f7720e2",
+  "name" : "duckduckgo is loading",
+  "time" : {
+    "start" : 1628079585753,
+    "stop" : 1628079589665,
+    "duration" : 3912
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd1561eaf4da8527",
+  "name" : "Generate 64 chracters long password",
+  "time" : {
+    "start" : 1628079643961,
+    "stop" : 1628079650381,
+    "duration" : 6420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af686bda9e7aba99",
+  "name" : "Generate 8 chracters long password",
+  "time" : {
+    "start" : 1628079631183,
+    "stop" : 1628079637608,
+    "duration" : 6425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "154c92dc7bf0884d",
+  "name" : "Fails to Generate 65 chracters long password2",
+  "time" : {
+    "start" : 1628079656886,
+    "stop" : 1628079663209,
+    "duration" : 6323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d81a2410f843e0d",
+  "name" : "Test that search is working recorded by inspector",
+  "time" : {
+    "start" : 1628079596473,
+    "stop" : 1628079606979,
+    "duration" : 10506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc42d1b174e39a86",
+  "name" : "Test that cheat sheets are working",
+  "time" : {
+    "start" : 1628079606979,
+    "stop" : 1628079613484,
+    "duration" : 6505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d459811c1bd5b7c0",
+  "name" : "Check that inTitle functionality works",
+  "time" : {
+    "start" : 1628079622862,
+    "stop" : 1628079631183,
+    "duration" : 8321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8ae0c501cbc788",
+  "name" : "Test that search is working",
+  "time" : {
+    "start" : 1628079589665,
+    "stop" : 1628079596472,
+    "duration" : 6807
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

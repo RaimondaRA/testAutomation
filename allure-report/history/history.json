@@ -1,0 +1,211 @@
+{
+  " tests\\MyFirstTest.spec.js Generate 16 chracters long password" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af79ca2bf39f70d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079637608,
+        "stop" : 1628079643961,
+        "duration" : 6353
+      }
+    } ]
+  },
+  " tests\\MyFirstTest.spec.js Test that cheat sheets are working" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc42d1b174e39a86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079606979,
+        "stop" : 1628079613484,
+        "duration" : 6505
+      }
+    } ]
+  },
+  " tests\\MyFirstTest.spec.js Generate 64 chracters long password" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd1561eaf4da8527",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079643961,
+        "stop" : 1628079650381,
+        "duration" : 6420
+      }
+    } ]
+  },
+  " tests\\MyFirstTest.spec.js Fails to Generate 7 chracters long password2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "159bae5726f51f74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079650382,
+        "stop" : 1628079656887,
+        "duration" : 6505
+      }
+    } ]
+  },
+  " tests\\MyFirstTest.spec.js Generate 8 chracters long password" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af686bda9e7aba99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079631183,
+        "stop" : 1628079637608,
+        "duration" : 6425
+      }
+    } ]
+  },
+  " tests\\MyFirstTest.spec.js Test that search is working recorded by inspector" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d81a2410f843e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079596473,
+        "stop" : 1628079606979,
+        "duration" : 10506
+      }
+    } ]
+  },
+  " tests\\MyFirstTest.spec.js duckduckgo is loading" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f484f79c8f7720e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079585753,
+        "stop" : 1628079589665,
+        "duration" : 3912
+      }
+    } ]
+  },
+  " tests\\MyFirstTest.spec.js Test that wikipedia shortener works" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52e9191b1f91076d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079613484,
+        "stop" : 1628079622861,
+        "duration" : 9377
+      }
+    } ]
+  },
+  " tests\\MyFirstTest.spec.js Check that inTitle functionality works" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d459811c1bd5b7c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079622862,
+        "stop" : 1628079631183,
+        "duration" : 8321
+      }
+    } ]
+  },
+  " tests\\MyFirstTest.spec.js Test that search is working" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8ae0c501cbc788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079589665,
+        "stop" : 1628079596472,
+        "duration" : 6807
+      }
+    } ]
+  },
+  " tests\\MyFirstTest.spec.js Fails to Generate 65 chracters long password2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "154c92dc7bf0884d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079656886,
+        "stop" : 1628079663209,
+        "duration" : 6323
+      }
+    } ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "uid" : "2b90ca141b87d505",
+  "name" : "Test that search is working",
+  "fullName" : "Test that search is working",
+  "historyId" : " tests\\MyFirstTest.spec.js Test that search is working",
+  "time" : {
+    "start" : 1628077260306,
+    "stop" : 1628077267406,
+    "duration" : 7100
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "853fd1b571c78a0c",
+      "name" : "screenshot",
+      "source" : "853fd1b571c78a0c.png",
+      "type" : "image/png",
+      "size" : 144632
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\MyFirstTest.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b90ca141b87d505.json",
+  "parameterValues" : [ ]
+}

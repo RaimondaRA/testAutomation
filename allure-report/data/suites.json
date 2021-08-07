@@ -1,0 +1,152 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests\\MyFirstTest.spec.js",
+    "children" : [ {
+      "name" : "duckduckgo is loading",
+      "uid" : "f484f79c8f7720e2",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079585753,
+        "stop" : 1628079589665,
+        "duration" : 3912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test that search is working",
+      "uid" : "e8ae0c501cbc788",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079589665,
+        "stop" : 1628079596472,
+        "duration" : 6807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test that search is working recorded by inspector",
+      "uid" : "6d81a2410f843e0d",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079596473,
+        "stop" : 1628079606979,
+        "duration" : 10506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test that cheat sheets are working",
+      "uid" : "fc42d1b174e39a86",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079606979,
+        "stop" : 1628079613484,
+        "duration" : 6505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test that wikipedia shortener works",
+      "uid" : "52e9191b1f91076d",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079613484,
+        "stop" : 1628079622861,
+        "duration" : 9377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check that inTitle functionality works",
+      "uid" : "d459811c1bd5b7c0",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079622862,
+        "stop" : 1628079631183,
+        "duration" : 8321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Generate 8 chracters long password",
+      "uid" : "af686bda9e7aba99",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079631183,
+        "stop" : 1628079637608,
+        "duration" : 6425
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Generate 16 chracters long password",
+      "uid" : "af79ca2bf39f70d2",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079637608,
+        "stop" : 1628079643961,
+        "duration" : 6353
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Generate 64 chracters long password",
+      "uid" : "bd1561eaf4da8527",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079643961,
+        "stop" : 1628079650381,
+        "duration" : 6420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Fails to Generate 7 chracters long password2",
+      "uid" : "159bae5726f51f74",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079650382,
+        "stop" : 1628079656887,
+        "duration" : 6505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Fails to Generate 65 chracters long password2",
+      "uid" : "154c92dc7bf0884d",
+      "parentUid" : "4f42c7144e16cd342540856561c6fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079656886,
+        "stop" : 1628079663209,
+        "duration" : 6323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4f42c7144e16cd342540856561c6fd30"
+  } ]
+}

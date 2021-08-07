@@ -1,0 +1,57 @@
+{
+  "uid" : "af686bda9e7aba99",
+  "name" : "Generate 8 chracters long password",
+  "fullName" : "Generate 8 chracters long password",
+  "historyId" : " tests\\MyFirstTest.spec.js Generate 8 chracters long password",
+  "time" : {
+    "start" : 1628079631183,
+    "stop" : 1628079637608,
+    "duration" : 6425
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "768970aaad890cca",
+      "name" : "screenshot",
+      "source" : "768970aaad890cca.png",
+      "type" : "image/png",
+      "size" : 122178
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\MyFirstTest.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af686bda9e7aba99.json",
+  "parameterValues" : [ ]
+}

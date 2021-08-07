@@ -1,0 +1,55 @@
+{
+  "uid" : "4ab11363c73bfcc7",
+  "name" : "Test that cheat sheets are working",
+  "fullName" : "Test that cheat sheets are working",
+  "historyId" : " tests\\MyFirstTest.spec.js Test that cheat sheets are working",
+  "time" : {
+    "start" : 1628077278506,
+    "stop" : 1628077285506,
+    "duration" : 7000
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4c9a838cfe219bba",
+      "name" : "screenshot",
+      "source" : "4c9a838cfe219bba.png",
+      "type" : "image/png",
+      "size" : 107817
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\MyFirstTest.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ab11363c73bfcc7.json",
+  "parameterValues" : [ ]
+}

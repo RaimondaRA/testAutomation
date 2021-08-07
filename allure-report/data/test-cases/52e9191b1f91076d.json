@@ -1,0 +1,65 @@
+{
+  "uid" : "52e9191b1f91076d",
+  "name" : "Test that wikipedia shortener works",
+  "fullName" : "Test that wikipedia shortener works",
+  "historyId" : " tests\\MyFirstTest.spec.js Test that wikipedia shortener works",
+  "time" : {
+    "start" : 1628079613484,
+    "stop" : 1628079622861,
+    "duration" : 9377
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "abedd82f924cbee5",
+      "name" : "screenshot",
+      "source" : "abedd82f924cbee5.png",
+      "type" : "image/png",
+      "size" : 94324
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\MyFirstTest.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "be9e52f79f21272c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628077285506,
+        "stop" : 1628077295603,
+        "duration" : 10097
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52e9191b1f91076d.json",
+  "parameterValues" : [ ]
+}

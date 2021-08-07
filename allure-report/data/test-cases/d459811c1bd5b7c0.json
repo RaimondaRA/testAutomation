@@ -1,0 +1,57 @@
+{
+  "uid" : "d459811c1bd5b7c0",
+  "name" : "Check that inTitle functionality works",
+  "fullName" : "Check that inTitle functionality works",
+  "historyId" : " tests\\MyFirstTest.spec.js Check that inTitle functionality works",
+  "time" : {
+    "start" : 1628079622862,
+    "stop" : 1628079631183,
+    "duration" : 8321
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "71d2b335dfd1054a",
+      "name" : "screenshot",
+      "source" : "71d2b335dfd1054a.png",
+      "type" : "image/png",
+      "size" : 353640
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\MyFirstTest.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d459811c1bd5b7c0.json",
+  "parameterValues" : [ ]
+}

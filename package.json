@@ -1,0 +1,16 @@
+{
+  "name": "testAutomation",
+  "version": "1.0.0",
+  "description": "My first test, checking that everything is working",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.13.1",
+    "experimental-allure-playwright": "0.0.3"
+  }
+}
