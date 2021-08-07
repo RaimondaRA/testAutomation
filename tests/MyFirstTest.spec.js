@@ -28,7 +28,7 @@ test('Test that search is working', async () => {
     //await page.waitForSelector('#logo_homepage_link'); //laukia kol psl atsiras logo selector'ius
     //await page.fill('#search_form_input_homepage', 'Test');
     //await page.click('#search_button_homepage');
-    await startPage.initiateSearh('Test')
+    await startPage.initiateSearch('Test');
     const result1TextContent = await page.textContent('#r1-0');
     //console.log(result1TextContent);    
     expect(result1TextContent).toContain('Test');
@@ -42,8 +42,8 @@ test('Test that search is working recorded by inspector', async () => {
     await page.click('input[name="q"]');
     // Click input:has-text("S")
     await Promise.all([
-    page.waitForNavigation(/*{ url: 'https://duckduckgo.com/?q=Test&ia=web' }*/),
-    page.click('input:has-text("S")')
+        page.waitForNavigation(/*{ url: 'https://duckduckgo.com/?q=Test&ia=web' }*/),
+        page.click('input:has-text("S")')
     ]);
     // Click #links div div:has-text("Test | Definition of Test by Merriam-WebsterYour browser indicates if you've vis")
     await page.click('#links div div:has-text("Test | Definition of Test by Merriam-WebsterYour browser indicates if you\'ve vis")');
@@ -56,11 +56,11 @@ test('Test that cheat sheets are working', async () => {
     // await page.waitForSelector('#logo_homepage_link'); 
     // await page.fill('#search_form_input_homepage', 'microsoft word cheat sheet');
     // await page.click('#search_button_homepage');
-    await startPage.initiateSearh('microsoft word cheat sheet')
-    const isCheatSheetsVisible = await page.isVisible('a[data-zci-link="cheat_sheets"]');
+    await startPage.initiateSearch('microsoft word cheat sheet');
+    const isCheatSheetVisible = await page.isVisible('a[data-zci-link="cheat_sheets"]');
     const cheatSheetsTitle = await page.textContent('h3.c-base__title');
     
-    expect(isCheatSheetsVisible).toBe(true);
+    expect(isCheatSheetVisible).toBe(true);
     expect(cheatSheetsTitle).toContain('Microsoft Word 2010');
     
 });
@@ -71,9 +71,9 @@ test('Test that wikipedia shortener works', async () => {
     //await page.waitForSelector('#logo_homepage_link'); 
     //await page.fill('#search_form_input_homepage', 'shorten www.wikipedia.com');
     //await page.click('#search_button_homepage');
-    await startPage.initiateSearh('shorten www.wikipedia.com');
+    await startPage.initiateSearch('shorten www.wikipedia.com');
     const shortenedUrl = await page.inputValue('#shorten-url');
-    //const shortenedUrl = await page.isVisible('#shorten-url', 'value');
+    //const shortenedUrl = await page.getAttribute('#shorten-url', 'value');
     await page.goto(shortenedUrl);
     const url = page.url();
     expect(url).toBe('https://www.wikipedia.org/');
@@ -86,7 +86,7 @@ test('Check that inTitle functionality works', async () => {
         // await page.waitForSelector("#search_form_input_homepage");
         // await page.fill('#search_form_input_homepage', "intitle:panda");
         // await page.click("#search_button_homepage");
-        await startPage.initiateSearh('intitle:panda');
+        await startPage.initiateSearch('intitle:panda');
         await page.waitForNavigation();
         const results = await page.evaluate(() => Array.from(document.querySelectorAll('.result__title'), element => element.textContent));
         results.forEach(result => {
@@ -103,25 +103,25 @@ test('Check that inTitle functionality works', async () => {
         // await page.waitForSelector("#search_form_input_homepage");
         // await page.fill('#search_form_input_homepage', ("password " + passwordLength));
         // await page.click("#search_button_homepage");
-        await startPage.initiateSearh("password " + passwordLength);
+        await startPage.initiateSearch("password " + passwordLength);
 
         //const generatedPassword = await page.textContent(".c-base__title");
-        const generatedPassword = await resultsPage.generatedPassword();
+        const generatedPassword = await resultsPage.getGeneratedPassword();
         expect(generatedPassword.length).toEqual(+passwordLength)
     });
   });
 
   const invalidPasswordsLengths = ['7', '65'];
   invalidPasswordsLengths.forEach(passwordLength => {
-    test(`Fails to Generate ${passwordLength} chracters long password2`, async () => {
+    test(`Fails to Generate ${passwordLength} chracters long password`, async () => {
       //await page.goto('https://start.duckduckgo.com/');
       
       //await page.waitForSelector("#search_form_input_homepage");
       //await page.fill('#search_form_input_homepage', ("password " + passwordLength));
       //await page.click("#search_button_homepage");
-      await startPage.initiateSearh("password " + passwordLength);
-      const isPassworrElementVisible = await page.isVisible(".c-base__sub");
-      expect(isPassworrElementVisible).toEqual(false)
+      await startPage.initiateSearch("password " + passwordLength);
+      const isPasswordElementVisible = await page.isVisible(".c-base__sub");
+      expect(isPasswordElementVisible).toEqual(false)
     });
   });
 
