@@ -17,9 +17,8 @@ exports.CalculatorResultsPage = class CalculatorResultsPage {
         return await this.page.textContent(errorMessage);
     }
 
-    async disableIntegersOnly(){
+    async isIntegersOnlyDisabled(){
         return await this.page.isDisabled(integersOnlyToggle);
-        //return await this.page.isEnabled(integersOnlyToggle);
     }
 
     async getIntegersOnlyText(){
